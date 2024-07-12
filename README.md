@@ -15,11 +15,17 @@ Este repositório é para minha prática e resolução dos exercícios proposto 
 
 Para rodar no browser pelo no terminal, dentro da pasta especifica do projeto: 
 
-`npm run dev`
+````
+npm create vite@latest
+    Escolha:
+    - React
+    - JavaScript
 
-  - Exemplo do que mostra no terminal:
+npm install
+npm run dev
 
-```react-trip@0.0.0 dev vite
+ps. Se estiver no MAC coloque sudo antes do npm
+````
 
 Re-optimizing dependencies because vite config has changed
 

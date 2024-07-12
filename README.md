@@ -13,10 +13,11 @@ Este repositório é para minha prática e resolução dos exercícios proposto 
   
 ## Rodar o projeto
 
-Para rodar no browser pelo no terminal, dentro da pasta especifica do projeto: 
+Para rodar pelo no terminal, digite os comandos:
 
-````
+```
 npm create vite@latest
+    Coloque um nome de pasta (project-name) que será criado.
     Escolha:
     - React
     - JavaScript
@@ -25,15 +26,30 @@ npm install
 npm run dev
 
 ps. Se estiver no MAC coloque sudo antes do npm
-````
+```
+
+Assim aparecerá a url que renderizirá seu projeto no browser:
+
+```
+react-trip@0.0.0 dev vite
 
 Re-optimizing dependencies because vite config has changed
 
 VITE v5.3.2 ready in 168 ms
-
 ➜ Local: http://localhost:5173/ -----> este é a url para acessar o projeto na rede.
 ➜ Network: use --host 
 to expose ➜ press h + enter to show help
+```
+
+Se quiser trocar de porta:
+
+```
+// vite.config.js
+export default {
+  server: {
+    port: 8080  // definir a porta para 8080
+  }
+}
 ```
 
 ## 🛠️ Construído com

@@ -1,5 +1,5 @@
 
-import  Contador from './components/Contador'
+import  Contador from './pages/Contador'
 
 function App() {
   return (

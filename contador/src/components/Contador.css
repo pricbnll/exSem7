@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.2em;
+  height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1.2em 1.1em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #132bda;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #ffffff;
+}
+
+button:hover {
+  border-color: #fffffd;
+}
+
+p {
+  margin-left: 80px;
+  margin-right: 80px;
+}

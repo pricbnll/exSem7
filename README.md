@@ -52,12 +52,23 @@ export default {
 }
 ```
 
+Componentes Bootstrap:
+
+```
+npm install bootstrap@5.3.3
+import 'bootstrap/dist/css/bootstrap.min.css'
+importação no arquivo main.jsx
+```
+
+
 ## 🛠️ Construído com
 
 - Trello - aprendendo a criar e mover cards.
 - VsCode - aprendendo a usar a ferramenta e suas extensões.
 - GitHub - aprendendo a utilizar sempre enviando ou trazendo para meu local o repositório, fazendo alterações...
 - React - hooks
+- Vite
+- Bootstrap
   
 
 ## 🧑🏻‍🏫 Professores

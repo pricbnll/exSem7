@@ -29,29 +29,25 @@ import "./Contador.css";
 //   );
 // }
 
-
 function Contador() {
   const [contador, setContador] = useState(0);
-  
+
   return (
-    <>
-      <div className="container">
-        <div>
-          <button onClick={() => setContador(prevState => prevState - 1)}>
-            -
-          </button>
-          <span>{contador}</span>
-          <button onClick={() => setContador(prevState => prevState + 1)}>
-            +
-          </button>
-        </div>
-      </div>
-    </>
+
+    <div className="container">
+      <button onClick={() => setContador((prevState) => prevState - 1)}>
+        -
+      </button>
+      <span>{contador}</span>
+      <button onClick={() => setContador((prevState) => prevState + 1)}>
+        +
+      </button>
+    </div>
+  
   );
 }
 
 export default Contador;
-
 
 Contador.propTypes = {
   contador: PropTypes.number,

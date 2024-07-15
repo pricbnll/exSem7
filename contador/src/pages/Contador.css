@@ -23,7 +23,8 @@ button:hover {
   border-color: #fffffd;
 }
 
-p {
+p, span {
   margin-left: 80px;
   margin-right: 80px;
+  font-weight: 700;
 }

@@ -1,5 +1,5 @@
 // import  Contador from './pages/Contador'
-import  BuscarTitulo from './pages/BuscarTitulo'
+import  {BuscarTitulo} from './pages/BuscarTitulo'
 
 function App() {
   return (

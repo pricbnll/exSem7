@@ -1,5 +1,6 @@
 // import Contador from './pages/Contador'
-import  {BuscarTitulo} from './pages/BuscarTitulo'
+// import  {BuscarTitulo} from './pages/BuscarTitulo'
+// import { ListaEstado } from "./pages/ListaEstado"
 
 function App() {
   return (
@@ -7,7 +8,11 @@ function App() {
 
       {/* <Contador /> */}
       
-      <BuscarTitulo />      
+      {/* <BuscarTitulo /> */}
+
+      {/* <ListaEstado/> */}
+
+
     </>
   )
 }

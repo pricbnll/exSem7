@@ -13,7 +13,8 @@ export function SimpleForm() {
  
   useEffect(() => {
     const isFormComplete = Object.values(formData).reduce((count, item) => {
-      return item ? count + 1 : count;
+      const itemCheck =  item ? count + 1 : count
+      return itemCheck
     }, 0) === 3;
     setIsComplete(isFormComplete);
   }, [formData]);
@@ -25,6 +26,14 @@ export function SimpleForm() {
       alert("Por favor, preencha todos os campos.");
     }
   };
+
+  const handleClear = ()=> {
+    setFormData ({
+      name: "",
+      email: "",
+      age: "",
+    })
+  }
 
   return (
     <div className="container mt-4">
@@ -66,9 +75,18 @@ export function SimpleForm() {
           className="btn btn-primary mt-4"
           type="button"
           onClick={handleButtonClick}
-        >
+          >
           Cadastrar
         </button>
+           
+        <button
+          className="btn btn-primary mt-4 ms-3"
+          type="button"
+          onClick={handleClear}>
+          Limpar
+        </button>
+
+          
       </form>
 
       {isComplete && <p>Formulário preenchido completamente!</p>}

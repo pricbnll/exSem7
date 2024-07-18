@@ -59,3 +59,17 @@ export function BuscarTitulo() {
 //         </div>
 //     );
 // }
+
+// CHAGPT EXPLICANDO: State data e randomTitles:
+
+// data: para armazenar todos os itens de notícias recebidos da API.
+// randomTitles: para armazenar os títulos selecionados aleatoriamente.
+// Função selectRandomTitles:
+
+// Seleciona um número definido de títulos aleatórios da array items e os armazena em randomTitles.
+// Uso do useEffect:
+
+// Chama getData quando o componente é montado.
+// Renderização dos Títulos:
+
+// Mapeia randomTitles para renderizar <p> com títulos selecionados aleatoriamente.
